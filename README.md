@@ -11,7 +11,9 @@ Some experiments with [AngularFire](https://www.firebase.com/docs/web/libraries/
 
 ```bash
 git clone git@github.com:catkins/angular-fire-harp.git
-sudo npm install -g harp
+sudo npm install -g harp bower
+npm install
+bower install
 harp server
 ```
 
