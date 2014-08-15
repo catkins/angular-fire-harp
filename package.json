@@ -1,0 +1,26 @@
+{
+  "name": "angular-fire-harp",
+  "version": "0.0.1",
+  "description": "Experiments with AngularJS Firebase and HarpJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/catkins/angular-fire-harp.git"
+  },
+  "keywords": [
+    "angular",
+    "firebase"
+  ],
+  "author": "Chris Atkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catkins/angular-fire-harp/issues"
+  },
+  "homepage": "https://github.com/catkins/angular-fire-harp",
+  "dependencies": {
+    "harp": "^0.13.0"
+  }
+}
