@@ -33,7 +33,7 @@ You can now visit your local harp application at [http://localhost:9000](http://
 
 #### Environment variables
 
-I use [direnv](http://direnv.net/) to manage project specific environment variables without cluttering up my project directory.
+I use [direnv](http://direnv.net/) to manage project specific environment variables without cluttering up `~/.profile`.
 
 ```bash
 # .envrc
