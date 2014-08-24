@@ -3,6 +3,8 @@
 # direnv
 .envrc
 
+*.map
+
 ### Node ###
 # Logs
 logs
