@@ -2,4 +2,18 @@
   .row
     .col-lg-12(ng-controller="MainCtrl as main")
       h1 {{ main.hello }}
-      pre {{ main.firebaseKey }}
+
+      h3 Messages
+      ul
+        li(ng-repeat="message in main.messages")
+          {{ message.body }}
+          .btn(ng-click="main.deleteMessage(message)") X
+
+
+      h3 New Message
+      form(ng-submit="main.addMessage()")
+        input(ng-model="main.newMessage")
+        button.btn.btn-primary(type="submit" value="Add Message") Add Message
+
+
+
